@@ -1,0 +1,16 @@
+<p>
+    First user from dictionary is {{ users.get('Onurhan', 'User not found.')}} years old.
+</p>
+
+<p>
+    The best movie ever is {{movie}}
+</p>
+
+<h4>Snack List</h4>
+<p>
+    <ul>
+    {% for snack in snacks%}
+        <li>{{snack}}</li>
+    {%endfor%}
+    </ul>
+</p>
